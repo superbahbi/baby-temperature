@@ -3,9 +3,4 @@
 Authors:
 ------------------
 
-	-Thomas Bumbera
-	-Paul Grad
-	-Danny Orellana
-	-Jun Pan
-	-Larry Morales
-	-Bahbi Kugler
+Thomas Bumbera, Paul Grad, Danny Orellana, Jun Pan, Larry Morales, Bahbi Kugler
