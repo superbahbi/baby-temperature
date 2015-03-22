@@ -33,6 +33,48 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+    var client = new WindowsAzure.MobileServiceClient('https://babytemp.azure-mobile.net/', 'HDEZpkeAujxXPucHhzpsDnTehRVEbl83'),
+        todoItemTable = client.getTable('temp');
+	var num;
+    // Read current data and rebuild UI.
+    // If you plan to generate complex UIs like this, consider using a JavaScript templating library.
+    function refreshTodoItems() {
+        var query = todoItemTable.orderByDescending('__updatedAt').take(1);
+        query.read().then(function(todoItems) {
+			console.log(todoItems);
+			console.log(todoItems.length);
+            var listItems = $.map(todoItems, function(item) {
+				num = item.temp;
+                return  $('#tempdata').html('<h2>' + (Math.round( num * 10 ) / 10) + 'F°</h2>');
+            });
+			if(num >= 100){ // fever
+				 $('.babylogo').css('background-image','url(img/RedBaby.png)');
+				 $('.status').html('<strong>Fever</strong>');
+			} else if(num > 90 && num < 100){ //hot
+				 $('.babylogo').css('background-image','url(img/YellowBaby.png)');
+				 $('.status').html('<strong>Hot</strong>');
+			} else if(num > 80 && num < 90){ //normal
+				 $('.babylogo').css('background-image','url(img/GeenBaby.png)');
+				 $('.status').html('<strong>Normal</strong>');
+			}else if(num <= 80){
+				 $('.babylogo').css('background-image','url(img/BlueBaby.png)');
+				 $('.status').html('<strong>Cold</strong>');
+			}
+            //$('#todo-items').empty().append(listItems).toggle(listItems.length > 0);
+            //$('#summary').html('<strong>' + todoItems.length + '</strong>');
+        }, handleError);
+		
+		setTimeout(refreshTodoItems, 5000 );
+    }
+
+    function handleError(error) {
+        var text = error + (error.request ? ' - ' + error.request.status : '');
+        $('#errorlog').append($('<li>').text(text));
+    }
+
+
+    // On initial load, start by fetching the current data
+		refreshTodoItems();
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
