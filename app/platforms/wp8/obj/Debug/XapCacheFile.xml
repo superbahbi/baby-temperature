@@ -1,0 +1,27 @@
+﻿<xapCache source="E:\GitHub\baby-temperature\app\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="3/23/2015 12:00:12 AM">
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\obj\Debug\io.cordova.hellocordova.dll" archivePath="io.cordova.hellocordova.dll" lastWriteTime="3/23/2015 12:00:12 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\img\BlueBaby.png" archivePath="www\img\BlueBaby.png" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\img\GeenBaby.png" archivePath="www\img\GeenBaby.png" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\img\RedBaby.png" archivePath="www\img\RedBaby.png" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\img\YellowBaby.png" archivePath="www\img\YellowBaby.png" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\plugins\com.microsoft.azure-mobile-services\www\MobileServices.Web.min.js" archivePath="www\plugins\com.microsoft.azure-mobile-services\www\MobileServices.Web.min.js" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js" archivePath="www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js" lastWriteTime="3/23/2015 12:00:10 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Images\appbar.feature.video.rest.png" archivePath="Images\appbar.feature.video.rest.png" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Images\appbar.next.rest.png" archivePath="Images\appbar.next.rest.png" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\VERSION" archivePath="VERSION" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="3/23/2015 12:00:12 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="3/23/2015 12:00:04 AM" />
+  <file source="E:\GitHub\baby-temperature\app\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="3/23/2015 12:00:12 AM" />
+</xapCache>

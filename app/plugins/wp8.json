@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "Properties/WMAppManifest.xml": {
+                "parents": {
+                    "/Deployment/App/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"ID_CAP_NETWORKING\" />",
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"wp-package\" value=\"InAppBrowser\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.microsoft.azure-mobile-services": {
+            "PACKAGE_NAME": "{3b81ee40-d12a-11e4-992a-d1332fad1a22}"
+        }
+    },
+    "dependent_plugins": {
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "{3b81ee40-d12a-11e4-992a-d1332fad1a22}"
+        }
+    }
+}
