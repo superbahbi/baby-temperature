@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="io.cordova.hellocordova" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="config.xml" uri="ms-resource://io.cordova.hellocordova/Files/config.xml">
+				<Candidate type="Path">
+					<Value>config.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://io.cordova.hellocordova/Files/images/SplashScreen.png"/>
+				<NamedResource name="SplashScreenPhone.png" uri="ms-resource://io.cordova.hellocordova/Files/images/SplashScreenPhone.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\SplashScreenPhone.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://io.cordova.hellocordova/Files/images/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square30x30Logo.png" uri="ms-resource://io.cordova.hellocordova/Files/images/Square30x30Logo.png"/>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://io.cordova.hellocordova/Files/images/Square310x310Logo.png"/>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://io.cordova.hellocordova/Files/images/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square44x44Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://io.cordova.hellocordova/Files/images/Square70x70Logo.png"/>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://io.cordova.hellocordova/Files/images/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://io.cordova.hellocordova/Files/images/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://io.cordova.hellocordova/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="www">
+				<NamedResource name="cordova.js" uri="ms-resource://io.cordova.hellocordova/Files/www/cordova.js">
+					<Candidate type="Path">
+						<Value>www\cordova.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cordova_plugins.js" uri="ms-resource://io.cordova.hellocordova/Files/www/cordova_plugins.js">
+					<Candidate type="Path">
+						<Value>www\cordova_plugins.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="index.html" uri="ms-resource://io.cordova.hellocordova/Files/www/index.html">
+					<Candidate type="Path">
+						<Value>www\index.html</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="css">
+					<NamedResource name="index.css" uri="ms-resource://io.cordova.hellocordova/Files/www/css/index.css">
+						<Candidate type="Path">
+							<Value>www\css\index.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="img">
+					<NamedResource name="BlueBaby.png" uri="ms-resource://io.cordova.hellocordova/Files/www/img/BlueBaby.png">
+						<Candidate type="Path">
+							<Value>www\img\BlueBaby.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GeenBaby.png" uri="ms-resource://io.cordova.hellocordova/Files/www/img/GeenBaby.png">
+						<Candidate type="Path">
+							<Value>www\img\GeenBaby.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="RedBaby.png" uri="ms-resource://io.cordova.hellocordova/Files/www/img/RedBaby.png">
+						<Candidate type="Path">
+							<Value>www\img\RedBaby.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="YellowBaby.png" uri="ms-resource://io.cordova.hellocordova/Files/www/img/YellowBaby.png">
+						<Candidate type="Path">
+							<Value>www\img\YellowBaby.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="js">
+					<NamedResource name="index.js" uri="ms-resource://io.cordova.hellocordova/Files/www/js/index.js">
+						<Candidate type="Path">
+							<Value>www\js\index.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="plugins">
+					<ResourceMapSubtree name="com.microsoft.azure-mobile-services">
+						<ResourceMapSubtree name="www">
+							<NamedResource name="MobileServices.Web.min.js" uri="ms-resource://io.cordova.hellocordova/Files/www/plugins/com.microsoft.azure-mobile-services/www/MobileServices.Web.min.js">
+								<Candidate type="Path">
+									<Value>www\plugins\com.microsoft.azure-mobile-services\www\MobileServices.Web.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="org.apache.cordova.inappbrowser">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows">
+								<NamedResource name="InAppBrowserProxy.js" uri="ms-resource://io.cordova.hellocordova/Files/www/plugins/org.apache.cordova.inappbrowser/src/windows/InAppBrowserProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\org.apache.cordova.inappbrowser\src\windows\InAppBrowserProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="inappbrowser.js" uri="ms-resource://io.cordova.hellocordova/Files/www/plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

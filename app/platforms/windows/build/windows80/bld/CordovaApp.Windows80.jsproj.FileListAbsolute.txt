@@ -1,0 +1,17 @@
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\debug\anycpu\resources.pri
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\debug\anycpu\AppxManifest.xml
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\debug\anycpu\CordovaApp.Windows80.build.appxrecipe
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\priconfig.xml
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\priconfig.xml.intermediate
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\layout.resfiles
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\layout.resfiles.intermediate
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\resources.resfiles
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\resources.resfiles.intermediate
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\pri.resfiles
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\pri.resfiles.intermediate
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\qualifiers.txt
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\qualifiers.txt.intermediate
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\MultipleQualifiersPerDimensionFound.txt
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\ProjectArchitectures.txt
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\package.map.txt
+E:\GitHub\baby-temperature\app\platforms\windows\build\windows80\bld\_pkginfo.txt

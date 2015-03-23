@@ -1,0 +1,1 @@
+E:\GitHub\baby-temperature\app\platforms\windows\CordovaApp.Windows80.jsproj;neutral
