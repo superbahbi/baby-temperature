@@ -1283,6 +1283,7 @@ module.exports = {
 
             app.addEventListener("checkpoint", checkpointHandler);
             Windows.UI.WebUI.WebUIApplication.addEventListener("resuming", resumingHandler, false);
+            var activatedHandler = function (args) {channel.deviceready.subscribe(function () {app.queueEvent(args);});};app.addEventListener('activated', activatedHandler, false);document.addEventListener('deviceready', function () {app.removeEventListener('activated', activatedHandler);}, false);
             app.start();
         };
 

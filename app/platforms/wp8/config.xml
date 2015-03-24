@@ -12,4 +12,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="Device">
+        <param name="wp-package" value="Device" />
+    </feature>
 </widget>

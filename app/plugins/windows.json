@@ -9,10 +9,16 @@
     "installed_plugins": {
         "com.microsoft.azure-mobile-services": {
             "PACKAGE_NAME": "HelloCordova"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "HelloCordova"
         }
     },
     "dependent_plugins": {
         "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "HelloCordova"
+        },
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "HelloCordova"
         }
     }

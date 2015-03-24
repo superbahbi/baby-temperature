@@ -16,7 +16,7 @@
     </Resources>
     <Applications>
         <Application Id="io.cordova.hellocordova" StartPage="www/index.html">
-            <m3:VisualElements BackgroundColor="transparent" Description="CordovaApp" DisplayName="HelloCordova" ForegroundText="light" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+            <m3:VisualElements ToastCapable="true" BackgroundColor="transparent" Description="CordovaApp" DisplayName="HelloCordova" ForegroundText="light" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
                 <m3:DefaultTile Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png">
                     <m3:ShowNameOnTiles>
                         <m3:ShowOn Tile="square150x150Logo" />

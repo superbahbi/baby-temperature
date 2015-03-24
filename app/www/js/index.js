@@ -49,6 +49,7 @@ var app = {
 				if(num >= 100){ // fever
 					 $('.babylogo').css('background-image','url(img/RedBaby.png)');
 					 $('.status').html('<strong>Fever</strong>');
+					 window.plugin.notification.local.add({ message: 'Baby is having a fever('+ num +'F°)' });
 				} else if(num > 90 && num < 100){ //hot
 					 $('.babylogo').css('background-image','url(img/YellowBaby.png)');
 					 $('.status').html('<strong>Hot</strong>');
@@ -59,8 +60,6 @@ var app = {
 					 $('.babylogo').css('background-image','url(img/BlueBaby.png)');
 					 $('.status').html('<strong>Cold</strong>');
 				}
-				//$('#todo-items').empty().append(listItems).toggle(listItems.length > 0);
-				//$('#summary').html('<strong>' + todoItems.length + '</strong>');
 			}, handleError);
 			
 			setTimeout(refreshTodoItems, 5000 );
